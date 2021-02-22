@@ -14,7 +14,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "climate": [
+        "dist/climate/climate",
+        "dist/climate"
+      ],
+      "casting": [
+        "dist/casting/casting",
+        "dist/casting"
+      ],
+      "samplelib": [
+        "dist/samplelib/samplelib",
+        "dist/samplelib"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

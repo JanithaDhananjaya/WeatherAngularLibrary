@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "hello": "echo \"The value of --foo is '${npm_config_foo}' and --poo is '${npm_config_boo}'\"",
-    "argument": "node index.js && ng generate library '${npm_congig_libName}'",
+    "argument": "node index.js",
     "weatherbuild": "ng build weather && cd dist/weather && npm publish --registry http://localhost:4873"
   },
   "private": true,
